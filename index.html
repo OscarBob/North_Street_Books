@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% assign sections = site.sections | sort: 'order' %} {% for section in sections
+%}
+<section
+  id="{{ section.section_id }}"
+  class="page-section {{ section.section_class }}"
+>
+  <div class="section-content">{{ section.content }}</div>
+</section>
+{% endfor %}

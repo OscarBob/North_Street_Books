@@ -1,0 +1,51 @@
+title: The Reading Nook
+description: Where every book finds its reader
+url: "https://yourdomain.com"
+baseurl: ""
+
+# Contact info
+email: hello@readingnook.com
+phone: "+44 20 1234 5678"
+address: "42 Library Lane, Bookshire, BK1 2AB"
+
+# Social media
+social:
+  twitter: readingnook
+  instagram: the_reading_nook
+  facebook: readingnookbooks
+
+# Opening hours
+hours:
+  monday: "10:00 - 18:00"
+  tuesday: "10:00 - 18:00"
+  wednesday: "10:00 - 18:00"
+  thursday: "10:00 - 20:00"
+  friday: "10:00 - 20:00"
+  saturday: "09:00 - 17:00"
+  sunday: "11:00 - 16:00"
+
+# External links
+books_catalog_url: "https://yourbookstore.com/catalog"
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+# Collections
+collections:
+  sections:
+    output: false
+    order:
+      - 01-intro.md
+      - 02-featured-books.md
+      - 03-news.md
+      - 04-about.md
+  posts:
+    output: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

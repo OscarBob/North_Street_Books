@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %} {% include navigation.html %}
+
+    <main>{{ content }}</main>
+
+    {% include footer.html %}
+    <script src="{{ '/js/main.js' | relative_url }}"></script>
+  </body>
+</html>
