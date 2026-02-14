@@ -1,18 +1,17 @@
-title: The Reading Nook
-description: Where every book finds its reader
+title: North Street Books and Tea Rooms
+description: Ashburton
 url: "https://yourdomain.com"
 baseurl: ""
 
 # Contact info
-email: hello@readingnook.com
-phone: "+44 20 1234 5678"
-address: "42 Library Lane, Bookshire, BK1 2AB"
+email: NorthStreetBooks@NorthStreetBooks.com
+phone: "+44 01 2345 6789"
+address: "5 North St, Ashburton, Newton Abbot TQ13 7QJ"
 
 # Social media
 social:
-  twitter: readingnook
-  instagram: the_reading_nook
-  facebook: readingnookbooks
+  instagram: NorthStreetBooks
+  facebook: NorthStreetBooks
 
 # Opening hours
 hours:

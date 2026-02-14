@@ -4,9 +4,7 @@ section_class: featured-section
 order: 2
 ---
 
-## ✨ Featured Books This Month
-
-Our staff picks for wonderful reads that promise cosy evenings and unforgettable stories.
+## Featured
 
 <div class="book-grid">
   <div class="book-card">

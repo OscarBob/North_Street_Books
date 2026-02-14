@@ -4,9 +4,9 @@ section_class: news-section
 order: 3
 ---
 
-## 📰 Latest News
+## News
 
-Stay updated with our newest arrivals, events, and bookish happenings.
+Stay updated with our newest arrivals, events, and menu items.
 
 <div class="news-grid">
 {% for post in site.posts limit:3 %}
